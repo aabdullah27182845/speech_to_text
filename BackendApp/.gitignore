@@ -28,6 +28,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+src/main/resources/non-exam-assesment-9120a06e8a2f.json
 
 ### VS Code ###
 .vscode/
