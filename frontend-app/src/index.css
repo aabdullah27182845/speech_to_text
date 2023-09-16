@@ -14,9 +14,7 @@ code {
     monospace;
 }
 
-.text-box {
-  /* padding: 1vh 1vw; */
-}
+/* Text box style */
 
 .text-box textarea {
   border: none;
@@ -37,3 +35,26 @@ code {
   outline: 0;
   background-color: rgba(180, 180, 180, 0.25);
 } 
+
+/* Button style */
+
+.buttons {
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 10vh auto;
+}
+
+.buttons button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+  font-size: 50px;
+  transition-duration: 0.5s;
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+  
+}
